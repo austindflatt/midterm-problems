@@ -1,4 +1,9 @@
-function isEvenlyDivisible() {
+function isEvenlyDivisible(number, number2) {
+  if (number % number2 === 0) {
+  return true
+  } else {
+    return false
+  }
 }
 
 function halfSquare() {
